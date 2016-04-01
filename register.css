@@ -1,0 +1,61 @@
+body{ 
+	background: url(images/h7.jpg) no-repeat center center fixed;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+}
+
+div.transbox {
+  margin: 75px 300px;
+  background-color: #003311;
+  border: 1px solid black;
+  opacity: 0.85;
+}
+
+input[type=text], select, textarea, input[type=date], input[type=email], input[type=number] {
+    width: 100%;
+    padding: 12px 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+	background-color: #9fff80;
+}
+
+input[type=submit] {
+    width: 260%;
+    background-color: #000000;
+    color: #1aff1a;
+    padding: 14px 50px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+p.head{
+	font-family: Forte;
+	font-size: 45px;
+	color: #1aff1a;
+	font-weight: bold;
+}
+
+p.label{
+	font-family: Lucida Handwriting;
+	font-size: 25px;
+	color: #1aff1a;
+	font-weight: bold;
+}
+
+td p{
+	font-family: Lucida Handwriting;
+	font-size: 15px;
+	color: #1aff1a;
+	font-weight: bold;
+}
+td p a{
+	font-family: Lucida Handwriting;
+	font-size: 15px;
+	color: #1aff1a;
+	font-weight: bold;
+}

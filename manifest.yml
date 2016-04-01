@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 128M
+  instances: 1
+  domain: mybluemix.net
+  name: uniqueIDmgmt
+  host: uniqueidmgmt
+  disk_quota: 1024M
+  services:
+  - ClearDB MySQL Database-jm
+  buildpack: php_buildpack
